@@ -56,3 +56,6 @@ set_prop(system_server, fst_prop)
 
 # Allow system server to access for dpm
 get_prop(system_server, persist_dpm_prop)
+
+# allow system server to get persist_camera_prop
+get_prop(system_server, persist_camera_prop)
