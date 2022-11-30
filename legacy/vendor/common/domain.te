@@ -39,7 +39,6 @@ allow untrusted_app_all {
         }:dir search;
 r_dir_file({domain - isolated_app }, vendor_sysfs_public);
 
-
 dontaudit domain kernel:system module_request;
 
 # Allow all domains read access to sysfs_thermal
